@@ -18,3 +18,7 @@ function readSingleFile(e) {
   
   document.getElementById('file-input')
     .addEventListener('change', readSingleFile, false);
+
+  app.on('window-all-closed', () => {
+    if (process.platform !== 'darwin') app.quit()
+  })

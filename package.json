@@ -9,7 +9,7 @@
   },
   "author": "Brandon Kim",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "electron": "^32.1.2"
   }
 }
